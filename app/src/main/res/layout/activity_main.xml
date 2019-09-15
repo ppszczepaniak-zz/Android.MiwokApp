@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tan_background"
+        android:orientation="vertical">
+
+        <!--Robie FrameLayout po to zeby objac nim TV i miec moj wybrany kolor bo... -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_numbers">
+            <!--..bo w TV robie tło selectableItemBackground ktore jest przezroczyste oraz.. -->
+            <!--..zapewnia ladna animacje po kliknieciu (Ripple Effect) .. -->
+            <TextView
+                android:id="@+id/numbers"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_numbers" />
+        </FrameLayout>
+
+        <!--FOR PROPER, CUSTOM RIPPLE EFFECTS see: https://classroom.udacity.com/courses/ud839/lessons/7863766808/concepts/81909627440923
+       and comments here: https://gist.github.com/udacityandroid/e11b81e3bdcff1c073c6e24a4fdb3365-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_family">
+
+            <TextView
+                android:id="@+id/family"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_family" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_colors">
+
+            <TextView
+                android:id="@+id/colors"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_colors" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_phrases">
+
+            <TextView
+                android:id="@+id/phrases"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_phrases" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
