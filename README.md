@@ -12,6 +12,7 @@ Main Features
 - My implementation of ArrayAdapter (WordsAdapter.java)
 - onClickListeners on buttons
 - FrameLayout
+- Polish and English locales
 - ScrollView
 
 ***
