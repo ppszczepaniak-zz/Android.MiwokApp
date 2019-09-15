@@ -7,12 +7,13 @@ Used in a Udacity course in the Beginning Android Nanodegree.
 
 Main Features
 --------------
-- Use of sounds (AudioManager) and icons
-- onClickListeners on buttons
-- My implementation of ArrayAdapter (WordsAdapter.java)
 - Fragments
-- ScrollView
+- Use of sounds (AudioManager) and icons
+- My implementation of ArrayAdapter (WordsAdapter.java)
+- onClickListeners on buttons
 - FrameLayout
+- ScrollView
+
 ***
 Udacity comments below:
 -----------------------
