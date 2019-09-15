@@ -11,6 +11,9 @@ Main Features
 - Fragments
 - ScrollView
 - FrameLayout
+***
+Udacity comments below:
+-----------------------
 
 Pre-requisites
 --------------
